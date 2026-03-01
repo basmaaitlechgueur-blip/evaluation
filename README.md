@@ -10,6 +10,9 @@ Application de gestion de stock pour un magasin de produits informatiques utilis
 
 🏗 Structure du Projet
 ---
+
+
+
 src/
 └── ma/
     └── projet/
@@ -18,6 +21,11 @@ src/
         ├── service/          # Services (CRUD)
         ├── util/             # HibernateUtil
         └── test/              # Programme de test
+
+
+
+
+        
 
 ---
 
