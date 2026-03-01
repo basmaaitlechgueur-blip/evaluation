@@ -155,3 +155,149 @@ afficherTachesPrixSuperieur(double prix) : Tâches avec prix > 1000 DH (requête
 afficherTachesEntreDates(Date debut, Date fin) : Tâches réalisées entre deux dates
 
 ---
+# Capture d ecrans :
+---
+<img width="1920" height="1080" alt="Screenshot (497)" src="https://github.com/user-attachments/assets/f1f557d6-c722-4205-9635-af0c8267c416" />
+
+<img width="1920" height="1080" alt="Screenshot (498)" src="https://github.com/user-attachments/assets/6df71c3f-ef2f-493f-a695-768f902567fa" />
+
+<img width="1920" height="1080" alt="Screenshot (499)" src="https://github.com/user-attachments/assets/3153d3dd-b371-4b07-9e59-2cc1abaafc6e" />
+
+<img width="1920" height="1080" alt="Screenshot (500)" src="https://github.com/user-attachments/assets/98eb8ff4-2af4-4680-875b-99109774f6b6" />
+
+<img width="1920" height="1080" alt="Screenshot (501)" src="https://github.com/user-attachments/assets/bf0c0451-21f6-42c3-ae7f-e6327c5cec95" />
+
+<img width="1920" height="1080" alt="Screenshot (502)" src="https://github.com/user-attachments/assets/28eccd3e-7788-4d21-ad4f-991c100fa440" />
+
+<img width="1920" height="1080" alt="Screenshot (503)" src="https://github.com/user-attachments/assets/e874903d-f845-4774-8036-88aa5dea4c48" />
+
+<img width="1920" height="1080" alt="Screenshot (504)" src="https://github.com/user-attachments/assets/a02faa86-dce3-4829-9c68-2e9a7f499a34" />
+
+<img width="1920" height="1080" alt="Screenshot (505)" src="https://github.com/user-attachments/assets/7fd84a31-e669-4026-8960-dbdcea99d815" />
+
+<img width="1920" height="1080" alt="Screenshot (506)" src="https://github.com/user-attachments/assets/1a5f5d06-b969-4347-ab7d-26d9f49fbd15" />
+
+<img width="1920" height="1080" alt="Screenshot (508)" src="https://github.com/user-attachments/assets/54dfbfdc-fe79-48c4-a8ff-9d596352c3e5" />
+
+<img width="1920" height="1080" alt="Screenshot (509)" src="https://github.com/user-attachments/assets/248e639d-4d80-463b-beb0-b3b65cb84da7" />
+
+<img width="1920" height="1080" alt="Screenshot (510)" src="https://github.com/user-attachments/assets/34d3a4a2-c665-439e-9c02-9790be23d77f" />
+
+<img width="1920" height="1080" alt="Screenshot (511)" src="https://github.com/user-attachments/assets/48814c33-af26-4328-b07f-d54b3ae58ffb" />
+
+<img width="1920" height="1080" alt="Screenshot (512)" src="https://github.com/user-attachments/assets/b0c07f26-f23e-4b3e-b88f-54d95f9fb707" />
+
+<img width="1920" height="1080" alt="Screenshot (513)" src="https://github.com/user-attachments/assets/5a6e5f02-17df-4a6d-8f7c-f29052b85166" />
+
+<img width="1920" height="1080" alt="Screenshot (514)" src="https://github.com/user-attachments/assets/a6cdbfd3-2909-43da-8def-97d60919b70b" />
+
+<img width="1920" height="1080" alt="Screenshot (515)" src="https://github.com/user-attachments/assets/48da1531-9a7c-4074-b0b1-ffb7fed6492b" />
+
+---
+
+# PROJET 3 : Application de Gestion d'État Civil
+---
+
+# Description
+---
+Application Java de gestion des citoyens et de leurs relations matrimoniales dans une province. 
+Elle permet de gérer les hommes, les femmes et leurs mariages avec persistance des données dans MySQL.
+
+---
+## Technologies Utilisées
+---
+- Java 8+
+- Hibernate (ORM)
+- MySQL
+- Maven (gestion des dépendances)
+- JPA (Java Persistence API)
+- ---
+## Structure du Projet
+---
+
+ex3_etatcivil/
+├── src/
+│ └── main/
+│ └── java/
+│ └── ma/
+│ └── projet/
+│ ├── beans/
+│ │ ├── Personne.java
+│ │ ├── Homme.java
+│ │ ├── Femme.java
+│ │ └── Mariage.java
+│ ├── dao/
+│ │ └── IDao.java
+│ ├── service/
+│ │ ├── AbstractFacade.java
+│ │ ├── HommeService.java
+│ │ ├── FemmeService.java
+│ │ └── MariageService.java
+│ ├── util/
+│ │ └── HibernateUtil.java
+│ └── test/
+│ └── Test.java
+└── hibernate.cfg.xml
+
+---
+Fonctionnalités Implémentées
+---
+Gestion des Personnes
+---
+✅ Création d'hommes et de femmes
+
+✅ Affichage de toutes les femmes
+
+✅ Recherche de la femme la plus âgée
+---
+Gestion des Mariages
+---
+✅ Création de mariages avec dates début/fin
+
+✅ Distinction mariages en cours / échoués
+
+✅ Gestion du nombre d'enfants par mariage
+
+---
+
+Requêtes Spécifiques
+---
+✅ Épouses d'un homme entre deux dates
+
+✅ Nombre d'enfants d'une femme entre deux dates
+
+✅ Femmes mariées deux fois ou plus (requête nommée)
+
+✅ Hommes mariés à 4 femmes entre deux dates (Criteria API)
+
+✅ Détails complets des mariages d'un homme
+
+---
+Auteur
+---
+AIT LECHGUEUR BASMA
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
